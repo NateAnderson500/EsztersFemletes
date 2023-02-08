@@ -4,7 +4,6 @@ import {Link} from 'react-scroll'
 export default function Navbar (){
     return (
         <div className="nav--container">
-            <h3 className="nav--header">Eszter Kiss</h3>
             <ul className="nav--items">
                 <li className="nav--item">
                     <Link to="home"

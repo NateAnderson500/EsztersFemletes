@@ -4,11 +4,17 @@ import About from './components/About';
 import Home from './components/Home';
 import EventResults from './components/EventResults';
 import Contact from './components/Contact';
+import React from "react";
 
 function App() {
+
+
   return (
     <div className="App">
       <Navbar />
+      <div className="header">
+        <h1>Eszter Kiss</h1>
+      </div>
       <Home />
       <About />
       <EventResults />

@@ -2,6 +2,6 @@
 
 export default function EventResults(){
     return (
-        <div className="test--div" id="event-results">this is the EVENT RESULTS</div>
+        <div className="event-results-container" id="event-results">this is the EVENT RESULTS</div>
     )
 }

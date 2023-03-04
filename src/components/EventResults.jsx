@@ -1,27 +1,22 @@
 import EventCard from './EventCard'
+import {EventData} from '../data/EventData'
 
 export default function EventResults(){
+
     return (
         <div className="event-results-container" id="event-results">
-                <EventCard 
-                img="assets/home-banner.jpg"
-                name="Ironman"
-                location="New York"
-                description="jdajpowa dawpodjwapodwp djoawjdodapowj dwapjdpojadjo adwpjodpaowdpo dawopjdwapojdw"
-                time="12:12"
-                />
-                <EventCard 
-                img="assets/home-banner.jpg"
-                name="Ironman"
-                location="New York"
-                description="jdajpowa dawpodjwapodwp djoawjdodapowj dwapjdpojadjo adwpjodpaowdpo dawopjdwapojdw"
-                time="12:12"/>
-                <EventCard 
-                img="assets/home-banner.jpg"
-                name="Ironman"
-                location="New York"
-                description="jdajpowa dawpodjwapodwp djoawjdodapowj dwapjdpojadjo adwpjodpaowdpo dawopjdwapojdw"
-                time="12:12"/>
+                {EventData.map((data, key) => {
+                    return (
+                        <EventCard 
+                        key = {key}
+                        img = {data.img}
+                        name = {data.name}
+                        location = {data.location}
+                        description = {data.description}
+                        time = {data.time}
+                        />
+                    )
+                })};
         </div>
     )
 }

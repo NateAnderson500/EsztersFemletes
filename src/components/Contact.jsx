@@ -3,7 +3,7 @@
 export default function Contact (){
     return (
         <div className="contact-container" id="contact">
-            <div className="contact-form">
+            <form className="contact-form">
             <input 
             className="input-small"
             type="text" 
@@ -22,8 +22,8 @@ export default function Contact (){
             placeholder="Message" 
             name="message" 
             />
-            <button className="submit" type="submit">Send Message</button>
-            </div>
+            <button className="submit-btn" type="submit">Send Message</button>
+            </form>
         </div>
     )
 }

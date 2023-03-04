@@ -1,9 +1,15 @@
 
 
 export default function Contact (){
+
+    function handleSubmit(e) {
+        e.preventDefault();
+    }
+
     return (
         <div className="contact-container" id="contact">
-            <form className="contact-form">
+            <h3> Contact Me!</h3>
+            <form className="contact-form" onSubmit={handleSubmit}>
             <input 
             className="input-small"
             type="text" 

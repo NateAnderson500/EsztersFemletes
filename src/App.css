@@ -271,7 +271,7 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
 
     .nav--items {
         width: 350px;
@@ -280,22 +280,20 @@
         font-size: 12px;
     }
 
-
-    .nav--container {
-        display: flex;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        justify-content: center;
-        height: 75px;
-        margin-top: 10px;
-
-    }
-
     .eszter-photo {
-        width: 70%;
-        height: 90%;
+        width: 40%;
+        height: 40%;
     }
 
+    .bio {
+        font-size: 11px;
+    }
+
+    .event-card-container{
+        width: 40%;
+    }
+    .event-results-container{
+        display: flex;
+        flex-direction: column;
+    }
 }

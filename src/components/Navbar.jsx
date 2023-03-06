@@ -5,10 +5,12 @@ export default function Navbar (){
     return (
         <div className="nav--container">
             <ul className="nav--items">
+                <li className="nav--header">
+                Eszter Kiss
+                </li>
                 <li className="nav--item">
                     <Link to="home"
                     smooth={true}
-                    offset={-75}
                     >
                         Home
                     </Link>

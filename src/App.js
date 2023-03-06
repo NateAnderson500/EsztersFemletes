@@ -12,9 +12,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="header">
-        <span className="header-name">Eszter Kiss</span>
-      </div>
       <Home />
       <About />
       <EventResults />

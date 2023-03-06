@@ -16,7 +16,7 @@ export default function EventResults(){
                         time = {data.time}
                         />
                     )
-                })};
+                })}
         </div>
     )
 }

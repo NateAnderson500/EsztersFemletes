@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/EsztersFemletes/static/css/main.3b8ad495.css",
+    "main.js": "/EsztersFemletes/static/js/main.c337dfed.js",
+    "index.html": "/EsztersFemletes/index.html",
+    "main.3b8ad495.css.map": "/EsztersFemletes/static/css/main.3b8ad495.css.map",
+    "main.c337dfed.js.map": "/EsztersFemletes/static/js/main.c337dfed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8ad495.css",
+    "static/js/main.c337dfed.js"
+  ]
+}
